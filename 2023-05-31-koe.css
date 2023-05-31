@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+}
+#blue {
+    color: blue;
+}
+body {
+    background-color:antiquewhite;
+}
+@media(max-width: 640px)
+{
+    head,body
+    {
+        float: initial;
+        width: 80%;
+        height: auto;
+    }
+}
